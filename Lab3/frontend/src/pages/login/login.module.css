@@ -1,0 +1,126 @@
+.root {
+  min-height: 100vh;
+  background: #F7FBF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 40px rgba(65, 184, 122, 0.12);
+  border: 1px solid #E5F5EC;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 800;
+  color: #41B87A;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 8px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #111;
+}
+
+.sub {
+  color: #6B7280;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  margin-top: 8px;
+}
+
+.input {
+  border: 1.5px solid #E5E7EB;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s;
+  background: #FAFAFA;
+  font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border-color: #41B87A;
+}
+
+.btn {
+  background: #41B87A;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background 0.2s;
+  width: 100%;
+}
+
+.btn:hover { background: #2E9E63; }
+.btn:disabled { opacity: 0.7; cursor: not-allowed; }
+
+.error {
+  background: #FEF2F2;
+  color: #DC2626;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+  margin-bottom: 16px;
+  border: 1px solid #FECACA;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #6B7280;
+}
+
+.link {
+  color: #41B87A;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.backLink {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #6B7280;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 24px;
+  transition: color 0.2s;
+}
+
+.backLink:hover { color: #41B87A; }
